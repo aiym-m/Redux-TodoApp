@@ -8,13 +8,13 @@ function Header() {
     <div className='main-div-header'>
         <ul className='list-header'>
     <div className='header-div'>
-        <NavLink to="/todolist" >All ToDos</NavLink>
-        <NavLink to="/todolist/completed"  >Completed ToDos</NavLink>
-        <NavLink to="/todolist/pending" >Pending ToDos</NavLink>
+        <NavLink to="/Redux-TodoApp/todolist" >All ToDos</NavLink>
+        <NavLink to="/Redux-TodoApp/todolist/completed"  >Completed ToDos</NavLink>
+        <NavLink to="/Redux-TodoApp/todolist/pending" >Pending ToDos</NavLink>
         
     </div>
         <div className='login-tab'>
-            <NavLink to="/loginpage" >Log in</NavLink>
+            <NavLink to="/Redux-TodoApp/loginpage" >Log in</NavLink>
         </div>
         </ul>
     </div>
