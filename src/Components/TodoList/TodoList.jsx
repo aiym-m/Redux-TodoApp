@@ -13,9 +13,9 @@ function TodoList() {
 
   // Filter todos based on the current path
   const filteredTodos = todos.filter((todo) => {
-    if (location.pathname === '/todolist/completed') {
+    if (location.pathname === '/Redux-TodoApp/todolist/completed') {
       return todo.completed === true; // Show only completed todos
-    } else if (location.pathname === '/todolist/pending') {
+    } else if (location.pathname === '/Redux-TodoApp/todolist/pending') {
       return todo.completed === false; // Show only pending (incomplete) todos
     }
     return true; // Default: show all todos

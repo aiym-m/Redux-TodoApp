@@ -14,7 +14,7 @@ import TodoList from './Components/Todolist/Todolist.jsx'
     element: <App />,
     children: [
       {
-        path: "/Redux-TodoApp/todoList",
+        path: "/Redux-TodoApp/todolist",
         element: <TodoList/>,
       },
       {
