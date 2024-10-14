@@ -10,7 +10,7 @@ import LoginPage from './Pages/LoginPage/LoginPage.jsx'
 import TodoList from './Components/Todolist/Todolist.jsx'
  const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Redux-TodoApp/",
     element: <App />,
     children: [
       {
