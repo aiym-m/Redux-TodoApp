@@ -14,15 +14,15 @@ import TodoList from './Components/Todolist/Todolist.jsx'
     element: <App />,
     children: [
       {
-        path: "todoList",
+        path: "/Redux-TodoApp/todoList",
         element: <TodoList/>,
       },
       {
-        path: "todolist/completed",
+        path: "/Redux-TodoApp/todolist/completed",
         element: <TodoList/>,
       },
       {
-        path: "todolist/pending",
+        path: "/Redux-TodoApp/todolist/pending",
         element: <TodoList/>
       }
 
